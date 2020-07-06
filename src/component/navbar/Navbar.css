@@ -1,0 +1,35 @@
+.navs{
+    background-color:#232323;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.left-nav, .right-nav{
+    color: rgba(255, 255, 255, 0.399);
+}
+a{
+    margin:5px;
+    color:white
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.right-nav{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buttons-jumbo :hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    font-weight: 500;
+    cursor: progress;
+}
+.active{
+    color:green;
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+}
