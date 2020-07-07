@@ -1,0 +1,26 @@
+.main-footer{
+    margin-top: 60%;
+    height: 30vh;
+    background-color:rgba(232, 231, 231, 0.913);
+    color:#2873ab;
+    display: flex;
+    justify-content: center;
+    padding:45px;
+
+}
+.main-footer ul li{
+    list-style-type: none;
+}
+.footer1, .footer2, .footer3, .footer4, .footer5, .footer6{
+    margin:2px;
+    padding: 10px;
+    display: table-column;
+    justify-content: center;
+}
+.quote{
+    font-weight: 500;
+    font-size: 20px;
+   margin-bottom: 2px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(201, 196, 196, 0.79)
+}

@@ -1,35 +1,85 @@
-.navs{
-    background-color:#232323;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.main-div{
+    height:24vh;
+    background-color: #23282e;
 }
-.left-nav, .right-nav{
-    color: rgba(255, 255, 255, 0.399);
+
+i{
+    color: #ececec;
+    margin: 5px;;
+}
+.div-1{
+    color: white;
 }
 a{
     margin:5px;
-    color:white
+
 }
-a:hover{
-    color: white;
-    text-decoration: none;
-}
-.right-nav{
-    margin-left: auto;
-    margin-right: 20px;
+.div-1-right{
+    margin-left: 83%;
 }
 
-.buttons-jumbo :hover{
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-    font-weight: 500;
-    cursor: progress;
+
+/* NOW DIV 2 */
+.div-2{
+    height: 70px;
 }
-.active{
+
+
+.div-2 .div-2-search{
+    margin-left: 21%;
+    background-color: #191f24;
+    padding: 8px;
+    border-radius: 2px;
+    
+}
+.div-2-search input{
+    height: 50px;
+    width: 18%;
+    font-size: small;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    color: white;    
+}
+.div-2-search input:focus{
+    outline: none;
+}
+.div-2-img img{
+    width:250px;
+    margin-left:15% ;
+}
+
+
+/* NOW DIV-3 */
+
+.div-3{
+    color:white;
+    margin-left: 13%;
+}
+.div-3-btn button{
+    margin-left: 17%;
+    background-color: #3085bb;
+    border-radius: 2px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.div-3-a-tag{
+    font-size: small;
+}
+.div-3-a-tag a{
+    color:white;
+    text-decoration: none;
+}
+.div-3 .div-3-a-tag a:hover{
+    color: #3085bb;
+    cursor: pointer;
+}
+.div-3 .div-3-btn button:hover{
+    transform: scale(1.1);
+    outline: none;
+}
+.div-3 .div-3-a-tag .active{
     color:green;
-    padding-bottom: 10px;
-    border-bottom: 4px solid white;
 }

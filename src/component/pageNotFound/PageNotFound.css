@@ -1,0 +1,10 @@
+.pagenotfound{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./404.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: left;
+    margin:5%;
+    
+}
